@@ -1,119 +1,88 @@
 #/* === START OF FILE === */
-# File: BC-Translator-Pro.py
-# Version: v1.2.0
-# Function: Advanced XLF Translator with Resume Logic and Rate Limiting
-# Purpose: Handling large D365 BC files (Base/System App) using Gemini 2.0 Flash
+# File: XLF-to-CSV-Advanced.py
+# Version: v1.0.0
+# Function: تحويل ملفات XLF إلى CSV مع استخراج ملاحظات المطورين وحساب التكرار
+# Components: XML Parser, Counter, CSV Writer
 
-import os
-import time
+import csv
 import xml.etree.ElementTree as ET
-from google import genai
-from google.genai import types
+from collections import Counter
 
-# === CONFIGURATION ===
-API_KEY = "AIzaSyBzz4D726YDE6NqITDjs8ATo9-p-kKAgzo"
-API_KEY = os.getenv("GOOGLE_API_KEY")
-if not API_KEY:
-    raise ValueError("Please set the GOOGLE_API_KEY environment variable.")
-client = genai.Client(api_key=API_KEY)
+# أسماء الملفات التي رفعتها
+files_to_process = [
+    "Base Application.cs-CZ.xlf",
+    "System Application.cs-CZ.xlf",
+    "Corrugated Samadhan.cs-CZ.xlf"
+]
 
-# Change these for each file you process
-SOURCE_FILE = "Base Application.cs-CZ.xlf"
-OUTPUT_FILE = "Base Application.ar-JO.xlf"
-SOURCE_FILE = "System Application.cs-CZ.xlf"
-OUTPUT_FILE = "System Application.ar-JO.xlf"
-
-# XLIFF Namespace setup
-ET.register_namespace('', "urn:oasis:names:tc:xliff:document:1.2")
+OUTPUT_CSV = "ERP_Terms_Analysis.csv"
 ns = {'xliff': "urn:oasis:names:tc:xliff:document:1.2"}
 
-def translate_batch(texts):
-    """Sends strings to Gemini with instructions to ignore placeholders."""
-    system_msg = (
-        "You are an expert ERP translator for Dynamics 365 Business Central. "
-        "Translate the following list into professional Arabic (Jordan/ar-JO). "
-        "Context: Corrugated packaging factory and industrial accounting. "
-        "CRITICAL: Keep placeholders like %1, %2, %3 exactly as they are. "
-        "Return ONLY the translations, one per line."
-    )
+def extract_and_analyze():
+    all_data = [] # لتخزين النصوص مع ملاحظاتها
+    term_counts = Counter() # لحساب التكرار
     
-    try:
-        response = client.models.generate_content(
-            model="gemini-2.0-flash",
-            contents=texts,
-            config=types.GenerateContentConfig(system_instruction=system_msg)
-        )
-        return [line.strip() for line in response.text.strip().split('\n')]
-    except Exception as e:
-        print(f"\n[!] API Error: {e}")
-        return None
-
-def is_arabic(text):
-    """Checks if the text already contains Arabic characters."""
-    if not text: return False
-    return any('\u0600' <= c <= '\u06FF' for c in text)
-
-def run_translation():
-    # If we already have a partial output file, use it to resume. 
-    # Otherwise, start from the source file.
-    file_to_load = OUTPUT_FILE if os.path.exists(OUTPUT_FILE) else SOURCE_FILE
-    
-    print(f"Loading {file_to_load}...")
-    tree = ET.parse(file_to_load)
-    root = tree.getroot()
-    
-    # Set target language
-    for file_tag in root.findall('xliff:file', ns):
-        file_tag.set('target-language', 'ar-JO')
-
-    all_units = root.findall('.//xliff:trans-unit', ns)
-    
-    # Filter: Only process units that don't have Arabic in the target yet
-    todo_units = []
-    for unit in all_units:
-        target = unit.find('xliff:target', ns)
-        if target is None or not is_arabic(target.text):
-            todo_units.append(unit)
-
-    total_todo = len(todo_units)
-    print(f"Total units in file: {len(all_units)}")
-    print(f"Units remaining to translate: {total_todo}")
-
-    if total_todo == 0:
-        print("Everything is already translated!")
-        return
-
-    batch_size = 30
-    for i in range(0, total_todo, batch_size):
-        batch = todo_units[i : i + batch_size]
-        sources = [u.find('xliff:source', ns).text for u in batch]
-        
-        print(f"Translating batch {i//batch_size + 1}... ", end="", flush=True)
-        
-        results = translate_batch(sources)
-        
-        if results:
-            for j, unit in enumerate(batch):
-                target = unit.find('xliff:target', ns)
-                if target is None:
-                    target = ET.SubElement(unit, '{urn:oasis:names:tc:xliff:document:1.2}target')
-                
-                # Update target text and state
-                target.text = results[j] if j < len(results) else sources[j]
-                target.set('state', 'translated')
+    for file_name in files_to_process:
+        print(f"جاري معالجة الملف: {file_name}...")
+        try:
+            tree = ET.parse(file_name)
+            root = tree.getroot()
+            units = root.findall('.//xliff:trans-unit', ns)
             
-            # Save progress after every successful batch
-            tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
-            print(f"Done. ({i + len(batch)}/{total_todo})")
-            
-            # Wait to avoid Rate Limit (429)
-            time.sleep(12) 
-        else:
-            print("Skipping batch due to error. Retrying in 30 seconds...")
-            time.sleep(30)
+            for unit in units:
+                source_text = unit.find('xliff:source', ns).text
+                if source_text:
+                    source_text = source_text.strip()
+                    term_counts[source_text] += 1
+                    
+                    # استخراج ملاحظات المطور (Developer Notes)
+                    notes = unit.findall('xliff:note', ns)
+                    dev_note = ""
+                    category = "General"
+                    
+                    for note in notes:
+                        if note.get('from') == 'Developer':
+                            dev_note = note.text if note.text else ""
+                            # تصنيف تقريبي بناءً على محتوى الملاحظة (Namespace)
+                            if "Namespace" in dev_note:
+                                category = dev_note.split('=')[1].split(')')[0]
+                            break
+                    
+                    all_data.append({
+                        'Source Text': source_text,
+                        'Note': dev_note,
+                        'Category': category
+                    })
+                    
+        except Exception as e:
+            print(f"خطأ في قراءة {file_name}: {e}")
 
-    print(f"\nProcessing Complete! Final file saved as: {OUTPUT_FILE}")
+    # إزالة التكرار من القائمة النهائية مع الاحتفاظ ببيانات كل مصطلح
+    unique_data = {}
+    for entry in all_data:
+        text = entry['Source Text']
+        if text not in unique_data:
+            unique_data[text] = entry
+
+    # حفظ النتائج في ملف CSV
+    with open(OUTPUT_CSV, "w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.writer(f)
+        # العناوين: النص الأصلي، الترجمة (فارغة)، عدد التكرار، التصنيف، ملاحظة المطور
+        writer.writerow(["Source Text", "Arabic Translation", "Count", "Category", "Developer Note"])
+        
+        for text in sorted(unique_data.keys()):
+            item = unique_data[text]
+            writer.writerow([
+                item['Source Text'], 
+                "", # مكان الترجمة
+                term_counts[text], 
+                item['Category'], 
+                item['Note']
+            ])
+
+    print(f"\nتم بنجاح! تم استخراج {len(unique_data)} مصطلح فريد.")
+    print(f"الملف الناتج: {OUTPUT_CSV}")
 
 if __name__ == "__main__":
-    run_translation()
+    extract_and_analyze()
 #/* === END OF FILE === */
