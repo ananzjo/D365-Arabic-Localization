@@ -74,5 +74,5 @@ def extract_full_xliff_details(file_list, output_excel):
         print("No data was extracted.")
 
 # تشغيل الكود
-my_files = ["Base Application.ar-JO.xlf", "Corrugated Samadhan.ar-JO.xlf"]
+my_files = ["Base Application.ar-JO.xlf", "System Application.ar-JO.xlf", "Corrugated Samadhan.ar-JO.xlf"]
 extract_full_xliff_details(my_files, "D365_Localization_Full_Report.xlsx")
