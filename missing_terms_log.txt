@@ -1,0 +1,336 @@
+Check connection.
+Cannot get a response. Status: %1. Message: %2. Details: %3
+The document was successfully sent for dispatching.
+Document exchange service.
+Check document dispatch errors.
+Get received documents.
+Check document status.
+Failed to acquire an authorization code. %1
+You cannot send this electronic document because it is already delivered or in progress.
+The access token is empty.
+Failed to acquire an access token by authorization code. %1
+You must configure the connection to the document exchange service on the %1 page.
+Cannot get the parameter value from the response. Parameter name: %1.
+The connection to the document exchange service is not configured. Do you want to open the %1 page to set it up?
+The document exchange service is not enabled.
+Cannot parse a response.
+The connection test was successful. The settings are valid.
+Cannot get a response. Status: %1. Message: %2
+The refresh token is empty.
+The document was not successfully dispatched. 
+The GUI is not allowed, so acquiring the authorization code through the interactive experience is not possible.
+Cannot parse the ID token. %1
+You must register an app that will be used to connect to the document exchange service and specify the client ID, client secret and redirect URL in the Document Exchange Service Setup page.
+The token for connecting to the document exchange service has expired.
+The document ID %1 is not a valid XML format. 
+Activate App
+The document exchange service did not return a document identifier.
+The token was successfully renewed.
+The token has expired.
+The %1 table is not supported.
+The document exchange service did not return a valid document identifier.
+The document ID %1 is imported into incoming documents.
+The client ID or client secret have not been initialized.
+Renew token
+The field value is not specified. Field: %1
+The document was successfully uploaded to the document exchange service for processing.
+Failed to acquire an access token by refresh token. %1
+To connect to the document exchange service, your administrator must activate the integration app.
+The document exchange service is not set up.
+The document was successfully sent to the document exchange service for processing.
+Preprocessing line no. #1######.
+Item %1 is not a BOM.
+No records were found for source table %1 using the filters: %2.
+No mapping was found for format definition %1 and line definition %2.
+A bill of materials cannot be a component of itself.
+Processing line no. #1######.
+There is not enough space to explode the BOM.
+There is nothing to release for the document of type %1 with the number %2.
+There are unpaid prepayment invoices that are related to the document of type %1 with the number %2.
+This document can only be released when the approval process is complete.
+Do you want to post the journals?
+Updating lines        #5###### @6@@@@@@@@@@@@@
+It was not possible to post all of the journals. 
+There are unposted prepayment amounts on the document of type %1 with the number %2.
+Checking lines        #2######\
+The journals were successfully posted.
+The approval process must be cancelled or completed to reopen this document.
+The journals that were not successfully posted are now marked.
+Posting lines         #3###### @4@@@@@@@@@@@@@
+Journal Batch Name    #1##########\\
+You must select a journal to reverse.
+Unsupported Entity Source Type = %1, Source Subtype = %2.
+Current Qty. on Hand
+Posting lines         #3###### @4@@@@@@@@@@@@@\
+Component %1
+Related entries not found. To unapply and reverse payments you must do it manually.
+Entry %1 cannot be reversed because its "Transaction No." is not defined.
+No registered phone numbers have been found for this %1.
+No Contact found.
+This payment reconciliation journal has already been reversed.
+Text Files(*.txt;*.csv)|*.txt;*.csv
+An entry for document %1 has been created as an intercompany transaction. The entry was automatically sent to IC partner %2.
+You must specify either a reading/writing XMLport or a reading/writing codeunit.
+Service Invoice
+An entry for document %1 has been created as an intercompany transaction. The entry awaits a manual check in the Intercompany Outbox before being sent.
+Multiple entries have been created as intercompany transactions. The entries were automatically sent to their corresponding IC partners.
+Service Credit Memo
+DetailTrialBalance.xlsx
+Multiple entries have been created as intercompany transactions. Multiple entries have been created as intercompany transactions. The entries await a manual check in the Intercompany Outbox before being sent.
+Select Payroll Transaction
+You must specify a service credit memo number.
+You cannot change settings for another user.
+Processing: @1@@@@@@@
+Click here to learn more about what that means
+Data out of geolocation apps
+c414a6bd-a8f2-4182-9059-0c4e88238046
+You must specify a service invoice number.
+Show a warning when there are apps installed that may possibly transfer data outside your countries' jurisdiction
+You must specify %1 or %2.
+Your Dynamics 365 Business Central environment has apps installed that may transfer data to other geographies than the current geography of your Dynamics 365 Business Central environment. This is to ensure proper functionality of the apps.
+must not be filled in when a quantity is reserved
+If you enable this feature, general ledger entries with postings in source currency will be processed to set up corresponding G/L accounts.
+Codeunit is not initialized correctly.
+https://go.microsoft.com/fwlink/?linkid=2153389
+Reserved quantity cannot be greater than %1
+Don't show me again
+must be filled in when a quantity is reserved
+Item Journal
+Provided API URL (%1) is not a valid AzureML URL.
+must not be changed when a quantity is reserved
+Circular reference in routing %1 when calculating %2. Counted sequences %3. Max. lines %4.
+Operation no. %1 uses %2 no. %3 that no longer exists.
+back
+Not all routing lines are sequenced forward on routing %1. Check %2.
+Actual number of termination processes in route %1 is %2. They should be 1. Check %3.
+Next operations for %1 cannot be found.
+Operation %1 does not have a work center or a machine center defined.
+Previous operations for %1 cannot be found.
+Not all routing lines are sequenced backwards on routing %1. Check %2.
+G/L Currency Revaluation
+Show details
+Actual number of start processes in route %1 is %2. They should be 1. Check %3.
+The update has been interrupted to respect the warning.
+M-BALANCE
+Item availability is low.
+Don't show again
+M-NETCHANG
+The available inventory for item %1 is lower than the entered quantity at this location.
+A record must be provided for this report API.
+Show a warning when someone creates a sales order or sales invoice for an item that is out of stock.
+Graph CDM - Postal Address complex type
+Graph CDM - Dimension complex type.
+The Dimension does not exist. Identification fields and values: Code=%1.
+The URI is not secure.
+Item %1 is not a BOM.
+Graph API - Complex type exposing details of the line object that is being sold.
+There is not enough space to explode the BOM.
+The BOM cannot be exploded on the sales lines because it is associated with purchase order %1.
+Graph CDM - Bookings Date complex type
+&Copy dimensions from BOM,&Retrieve dimensions from components
+One or more of the entries that you selected is closed. You cannot apply closed entries.
+Cannot post because you did not specify which entry to apply. You must specify an entry in the %1 field for one or more open entries.
+\\Service URL: %1.
+Please wait while the server is processing your request.\This may take several minutes.
+Cust. Ledger Entry No. %1 does not have an application entry.
+Unapplying and posting...
+The URI is not valid.
+The text encoding is not specified or is not valid.
+You cannot unapply Cust. Ledger Entry No. %1 because the entry is part of a reversal.
+Connection to the remote service could not be established.\\
+Before you can unapply this entry, you must first unapply all application entries that were posted after this entry.
+Index out of bounds.
+You cannot unapply the entry with the posting date %1, because the exchange rate for the additional reporting currency has been changed.
+The latest Transaction No. must be an application in Cust. Ledger Entry No. %1.
+Posting application...
+The posting date entered must not be before the posting date on the Cust. Ledger Entry.
+No split string has been supplied.
+Posting date is not within the range of allowed posting dates.
+Before you can unapply this entry, you must first unapply all application entries in Cust. Ledger Entry No. %1 that were posted after this entry.
+All payroll services are disabled. Do you want to enable a payroll service?
+Configuration package contains dimensions.
+ Do you want to continue?
+Select a payroll service you want to enable and use.
+Several payroll services are installed and enabled. Select a service you want to use.
+Payroll service %1 is disabled.
+This configuration package contains dimensions. This can lead to inconsistencies.
+%1 must not be %2 in %3 %4 when %5 is %6.
+Show a notification when a configuration package contains dimension tables, as these can lead to data inconsistencies.
+A payroll service could not be found.
+Don't show again.
+The %1 from '%2' to '%3' does not exist.
+Location is mandatory.
+%1: %2 The item is planned to cover the exact demand.
+Assertion failed: %1.
+%1: The Status of %2 %3 is %4.
+StartOver,MatchDates,MatchQty,CreateSupply,ReduceSupply,CloseDemand,CloseSupply,CloseLoop
+The projected inventory %1 is higher than the overflow level %2 on %3.
+%1: The projected available inventory is %2 on the planning starting date %3.
+%1: The %2 %3 is before the work date %4.
+%1: The projected available inventory is below %2 %3 on %4.
+%1 must not be %2 in %3 %4 %5 %6 when %7 is %8.
+The %1 export format does not support the Payment Method Code %2.
+Missing stockkeeping unit.
+Preview versions are no longer available. To continue using %1, use a web client to open the company and accept the terms and conditions.
+You must choose a valid export format for the bank account. Format %1 is not correctly defined.
+The %1 for %2 %3 %4 %5 does not exist.
+You do not have an evaluation company. To continue with the trial version, you must accept the terms and conditions.
+In order to open %1, your company must start a trial. You must be an administrator to enter the trial period.
+The payment that you are trying to export is different from the specified %1, %2.\\The value in the %3 field does not have the length that is required by the export format. \Expected: %4 \Actual: %5 \Field Value: %6.
+Sorry, you can't create a %1 from this device.
+is not different than %1.
+There is no more space to insert another line in the worksheet.
+It was not possible to find a %1 in %2.
+%1 must be %2 or %3 for %4.
+Are you sure that you want to cancel?
+There is not enough space to insert lower level Make-to-Order lines.
+is a %1 and %2 is not a %1.
+%1 must be %2 for %3.
+BOM phantom structure for %1 is higher than 50 levels.
+Production BOM Header No. %1 used by Item %2 has BOM levels that exceed 50.
+%1 cannot be calculated for %2.
+%2 = 0 for %1.
+%2 is greater than %3 for %1.
+%1 is disposed.
+Payment for %1 %2.
+must not be used together with %1 in %2 %3.
+You cannot cancel this posted sales credit memo because the inventory period is already closed.
+You cannot cancel this posted sales credit memo because it was posted in a posting period that is closed.
+You cannot cancel this posted sales credit memo because the external document number is required on the credit memo.
+You cannot cancel this posted sales credit memo because it is not a corrective document.
+Canceling the credit memo failed because of the following error: \\%1.
+You cannot cancel this posted sales credit memo because the combination of dimensions on the credit memo is blocked.
+You cannot cancel this posted sales credit memo because item %1 %2 is blocked.
+You cannot cancel this posted sales credit memo because it is fully or partially applied.\\To reverse an applied sales credit memo, you must manually unapply all applied entries.
+You cannot cancel this posted sales credit memo because it has already been cancelled.
+You cannot cancel this posted sales credit memo because customer %1 is blocked.
+You cannot cancel this posted sales credit memo because the dimension combination for item %1 %2 is not allowed.
+Canceling the credit memo failed because of the following error: \\%1\\An invoice is created but not posted. Do you want to open the invoice?
+You cannot cancel this posted sales credit memo because no unused posted invoice numbers are available. \\You must extend the range of the number series for posted invoices.
+You cannot cancel this posted sales credit memo because the dimension rule setup for account '%1' %2 prevents %3 %4 from being cancelled.
+The journal lines were successfully posted. You are now in the %1 journal.
+Canceling the credit memo failed because of the following error: \\%1\\An invoice is posted. Do you want to open the posted invoice?
+You cannot cancel this posted sales credit memo because item variant %1 for item %2 %3 is blocked.
+%1 field must not have a check mark because %2 is zero or negative for %3.
+Do you want to post the journal lines?
+You cannot cancel this posted sales credit memo because %1 %2 is blocked.
+You cannot cancel this posted sales credit memo because it is not fully applied to an invoice.
+Released
+Prod. Order
+You cannot cancel this posted sales credit memo because no unused invoice numbers are available. \\You must extend the range of the number series for sales invoices.
+There are no records to delete for table ID %1, %2.
+The oldest record in table ID %1, %2 is younger than the earliest expiration date. There are no records to delete.
+It was not possible to post all of the journals. 
+Project
+Released %1
+The journals were successfully posted.
+The journal lines were successfully posted.
+The journals that were not successfully posted are now marked.
+Do you want to post the journals and print the posting report?
+The expiration date for table %1, %2 must be at least %3 days before the current date. Please update the retention policy.
+The %1 %2 %3 and its components have item tracking. Do you want to delete them anyway?
+Firm Planned %1
+Codeunit is not initialized correctly.
+The %1 %2 %3 has components with item tracking. Do you want to delete it anyway?
+Reserved quantity cannot be greater than %1
+%1 production order %2 has item reservation. Do you want to delete it anyway?
+must be filled in when a quantity is reserved
+Change log cannot be enabled for the table %1.
+The %1 %2 %3 has item tracking. Do you want to delete it anyway?
+must not be changed when a quantity is reserved
+You are renaming an existing user. This will also update all related records. Are you sure that you want to rename the user?
+%1 cannot be empty.
+Cannot find document sending profile for customer %1.
+The account %1 already exists.
+To permanently disable a user, go to your Microsoft 365 admin center. Disabling the user in Business Central will only be effective until the next user synchronization with Microsoft 365.
+You do not have permissions for this action on the table %1.
+You are signed in with the %1 account. Changing the account will refresh your session. Do you want to continue?
+Do you want to create Warehouse Put Away for Production Order with Status %1, No. %2 ?
+Service Charge
+The printer %1 was not found on the server.
+Post journal lines for journal template %1, journal batch %2, document no. %3.
+Post and print journal lines for journal template %1, journal batch %2, document no. %3.
+is not within your range of allowed posting dates
+WorkflowStepInstanceID
+Journal lines have been scheduled for posting.
+%1 cannot be null.
+NotificationUrl
+DataID
+Journal lines cannot be posted because they have already been scheduled for posting. Choose the Remove from Job Queue action to reset the job queue status and then post again.
+The code unit is not initialized.
+Your extended trial period has expired. You can contact a partner to get more time.
+This Role Center contains functionality that may not be visible because of your experience setting or assigned plan. For more information, see Changing Which Features are Displayed
+Your subscription has expired. Unless you renew, we will delete your data in %1 days.
+Your extended trial period will expire in %1 days. If it expires you contact a partner to get more time.
+Your subscription expires in %1 days. Renew soon to keep your work.
+Your trial period expires in %1 days.
+This is a sandbox environment for test, demo, or development purposes only.
+Suggest to change the Experience setting.
+Extend trial...
+Renew subscription...
+Notify user of sandbox environment.
+Show a notification suggesting the user to change to Premium experience.
+Request partner contact...
+Don't show this again.
+Your extended trial period has expired.
+Show a notification informing the user that they are working in a sandbox environment.
+You cannot delete %1 %2 because there is at least one outstanding Service %3 that includes this item.
+9e359b60-3d2e-40c7-8680-3365d51937f7
+SecureString exceeds size limitation, check documentation on dotnet 4.7.2.
+must be identical to %1
+must not be specified together with %1 = %2
+You must specify the %1 before you can convert a quote to an invoice.
+is a %1
+Your trial period has expired. You can subscribe or extend the period to get more time.
+must not be specified when %1 is specified
+Your trial period has expired. You can extend the period to get more time.
+%1 + %2 must be %3.
+Previous year is not defined in accounting period.
+You must select a customer before you can convert a quote to an invoice.
+Your extended trial period will expire in %1 days.
+The next accounting period for workdate %1 is not defined.\Verify the accounting period setup.
+You cannot post depreciation, because the calculation is across different fiscal year periods, which is not supported.
+AL CRM Integration
+You can not convert sales quote to sales invoice because one or more lines is linked to assembly quote. Change the %1 to zero or convert the quote to order instead.
+Renew subscription...
+must not be a %1
+No accounting periods have been set up. In order to run date compression you must set up accounting periods.
+You must specify a description.
+You cannot dispose Main Asset %1 until Components are disposed.
+must not be %1 when %2 or %3 are %4
+A dimension used in %1 %2, %3, %4 has caused an error. %5
+Date Compressed
+%1 + %2 must be -%3.
+%1 must be posted in the FA journal
+%1 and %2 must not both be %3.
+You must specify an ending date.
+The end date %1 is not valid. You must keep at least %2 years uncompressed.
+The number of years to keep uncompressed cannot be less than 1.
+is not within your range of allowed posting dates
+%1 must be posted in the general journal
+The combination of dimensions used in %1 %2, %3, %4 is blocked. %5
+can only be a closing date for G/L entries
+must not be specified when %1 is a %2
+must not be specified when %1 = %2 in %3
+is not different than %1
+The start date %1 must be before the end date %2
+Could not find any lines on the %1 page that are related to the %2 where the value in the %3 field is %4, and value in the %5 field is %6.
+You must fill the General Journal Template Name and General Journal Batch Name fields in the Incoming Document Setup window. 
+The Service Quote %1 has been converted to Service Order %2. Do you want to open the new Order?
+is later than %1
+The period is not valid.
+must be filled in when a quantity is reserved.
+Do you want to convert the quote to an order?
+must not be changed when a quantity is reserved.
+Postcode service is not configured.
+Disabled
+Do you want to post Inventory Document?
+The accounting periods for the period you wish to date compress must be Date Locked.
+The %1 does not match the quantity defined in item tracking.
+It was not possible to find a %1 in %2.
+Project Journal
+The currency %1 does not exist. You must add the currency in the Currencies window.
+%1 %2 does not exist.
+We found more than one %1s where the value in the %2 field is %3. The value in the %2 field must be unique.
+Partner Agreement has not been accepted.
+A general technical error occurred while contacting remote service.

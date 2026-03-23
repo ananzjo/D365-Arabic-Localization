@@ -17,7 +17,7 @@ TERMS_MAPPING = {
     'apply': 'تسوية',
     'order': 'أمر',
     'corrugated': 'معرج',
-    'journal': 'دفتر يومية',     # Also يومية
+    'journal': 'دفتر يومية',
     'lc': 'اعتماد بنكي',
     'invoice lines': 'تفاصيل الفاتورة',
     'purchase lines': 'تفاصيل المشتريات',
@@ -64,7 +64,33 @@ TERMS_MAPPING = {
     'items': 'مواد',
     'item': 'مادة',
     'double stacker': 'دبل ستاكر',
-    'capacity': 'الطاقة الانتاجية'
+    'capacity': 'الطاقة الانتاجية',
+    'specifies the number of the involved entry or record, according to the specified number series.': 'تحديد رقم القيد أو السجل المعني، وفقاً لسلسلة الأرقام المحددة.',
+    'view or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.': 'عرض أو تحرير الأبعاد، مثل المنطقة أو المشروع أو القسم، التي يمكنك تعيينها لمستندات المبيعات والشراء لتوزيع التكاليف وتحليل سجل المعاملات.',
+    'view or add comments for the record.': 'عرض أو إضافة تعليقات للسجل.',
+    'review the different types of entries that will be created when you post the document or journal.': 'مراجعة الأنواع المختلفة من القيود التي سيتم إنشاؤها عند ترحيل المستند أو دفتر اليومية.',
+    'specifies how each unit of the item or resource is measured, such as in pieces or hours. by default, the value in the base unit of measure field on the item or resource card is inserted.': 'تحديد كيفية قياس كل وحدة من الصنف أو المورد، مثل القطع أو الساعات. بشكل افتراضي، يتم إدرج القيمة في حقل وحدة القياس الأساسية في بطاقة الصنف أو المورد.',
+    'view statistical information, such as the value of posted entries, for the record.': 'عرض معلومات إحصائية، مثل قيمة القيود المرحلة، للسجل.',
+    'strapping machine': 'ماكينة تحزيم/تربيط',
+    'no. of straps': 'عدد الأربطة',
+    'unit price': 'سعر الوحدة',
+    'unit cost': 'تكلفة الوحدة',
+    'variant code': 'كود البديل',
+    'location code': 'كود الموقع',
+    'source code': 'كود المصدر',
+    'reason code': 'كود السبب',
+    'posting date': 'تاريخ الترحيل',
+    'document no.': 'رقم المستند',
+    'amount': 'المبلغ',
+    'status': 'الحالة',
+    'quantity': 'الكمية',
+    'description': 'الوصف',
+    'name': 'الاسم',
+    'no.': 'الرقم',
+    'yes': 'نعم',
+    'no': 'لا',
+    'ok': 'موافق',
+    'cancel': 'إلغاء'
 }
 
 from functools import lru_cache
@@ -102,8 +128,27 @@ def translate_and_map(text, dev_note, translator):
                 continue
             
             p_lower_strip = p.strip().lower()
-            if p_lower_strip in TERMS_MAPPING:
+            
+            # Component-based mapping for industry strings (e.g., "Liner1,Flute1")
+            if ',' in p_lower_strip:
+                subparts = re.split(r'(,)', p) # Keep commas
+                translated_subparts = []
+                for sp in subparts:
+                    sp_stripped = sp.strip().lower()
+                    # Strip trailing numbers for mapping (e.g. Liner1 -> Liner)
+                    sp_base = re.sub(r'[0-9]+$', '', sp_stripped)
+                    if sp_base in TERMS_MAPPING:
+                        # Append the translation and re-add the number
+                        num = re.search(r'[0-9]+$', sp_stripped)
+                        translated_sp = TERMS_MAPPING[sp_base] + (num.group(0) if num else "")
+                        translated_subparts.append(translated_sp)
+                    else:
+                        translated_subparts.append(sp)
+                translated = "".join(translated_subparts)
+            elif p_lower_strip in TERMS_MAPPING:
                 translated = TERMS_MAPPING[p_lower_strip]
+            elif p_lower_strip + "s" in TERMS_MAPPING: translated = TERMS_MAPPING[p_lower_strip + "s"]
+            elif p_lower_strip.rstrip('s') in TERMS_MAPPING: translated = TERMS_MAPPING[p_lower_strip.rstrip('s')]
             elif p_lower_strip == 'journals': translated = 'يوميات'
             elif p_lower_strip == 'indents': translated = TERMS_MAPPING['indent']
             elif p_lower_strip == 'depalletization': translated = TERMS_MAPPING['de-palletization']
@@ -222,9 +267,18 @@ def translate_and_map(text, dev_note, translator):
 def is_arabic_translated(target_text, source_text):
     if not target_text:
         return False
-    # If it's already exactly the same as source and contains no letters (like %1, or 0.00), assume completed
-    if target_text == source_text and not re.search(r'[a-zA-Z]', source_text):
-        return True
+    # If target is same as source and source matches technical patterns (no letters, or GUID, or property name)
+    if target_text == source_text:
+        # If it has no English letters (like numbers or symbols), it's done
+        if not re.search(r'[a-zA-Z]', source_text):
+            return True
+        # If it looks like a GUID
+        if re.match(r'^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$', source_text.lower()):
+            return True
+        # If it's a technical blob name or very short uppercase code
+        if re.match(r'^[A-Z0-9_]{3,15}$', source_text) and not re.search(r'[\s]', source_text):
+            return True
+            
     # Check for Arabic characters
     if re.search(r'[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]', target_text):
         return True
@@ -278,19 +332,24 @@ def process_xlf_file(input_file, output_file):
                         if target is None:
                             target = ET.SubElement(unit, '{urn:oasis:names:tc:xliff:document:1.2}target')
                             
-                        # Skip if already translated properly to Arabic
-                        if target.attrib.get('state') == 'translated' and is_arabic_translated(target.text, source.text):
+                        # Force mapping check first to override poor Google translations
+                        p_lower = source.text.strip().lower()
+                        if p_lower in TERMS_MAPPING:
+                            target.text = TERMS_MAPPING[p_lower]
+                            target.set('state', 'translated')
+                            newly_translated += 1
+                        # Skip if already translated properly and not in mapping
+                        elif target.attrib.get('state') == 'translated' and is_arabic_translated(target.text, source.text):
                             processed += 1
                             continue
-                        
-                        target.set('state', 'translated')
-                        
-                        # Process translation while maintaining placeholders intact
-                        target.text = translate_and_map(source.text, dev_note, translator)
-                        newly_translated += 1
+                        else:
+                            target.set('state', 'translated')
+                            # Process translation while maintaining placeholders intact
+                            target.text = translate_and_map(source.text, dev_note, translator)
+                            newly_translated += 1
                         
                     processed += 1
-                    if newly_translated > 0 and newly_translated % 50 == 0:
+                    if newly_translated > 0 and newly_translated % 500 == 0:
                         print(f"[{processed}/{total_units}] translated... Saving progress.")
                         # Incremental save
                         xml_str = ET.tostring(root, encoding='utf-8', xml_declaration=True)

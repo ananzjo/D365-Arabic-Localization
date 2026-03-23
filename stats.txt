@@ -1,0 +1,3 @@
+Base Application.ar-JO.xlf: (133904, 133621, 0, 283)
+System Application.ar-JO.xlf: (4838, 4816, 0, 22)
+Corrugated Samadhan.ar-JO.xlf: (28179, 27569, 0, 610)
