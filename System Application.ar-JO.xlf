@@ -6728,13 +6728,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 335290041 - NamedType 3386439318" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Duration can be -1 (for infinite) or between 15 and 60 seconds. Parameter Value: %1</source>
-          <target state="translated">يمكن أن تكون المدة -1 (لللانهائي) أو بين 15 و60 ثانية.قيمة المعلمة: %1</target>
+          <target state="translated">يمكن أن تكون المدة -1 (لللانهائي) أو بين 15 و60 ثانية.قيمة المعيار: %1</target>
           <note from="Developer" annotates="general" priority="2">%1 = Current Value(Namespace=System.Azure.Storage)(LookupHint=Codeunit ABS Client Impl. - NamedType ParameterDurationErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
         <trans-unit id="Codeunit 335290041 - NamedType 3084543117" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Duration can be  between 0 and 60 seconds. Parameter Value: %1</source>
-          <target state="translated">يمكن أن تتراوح المدة بين 0 و60 ثانية.قيمة المعلمة: %1</target>
+          <target state="translated">يمكن أن تتراوح المدة بين 0 و60 ثانية.قيمة المعيار: %1</target>
           <note from="Developer" annotates="general" priority="2">%1 = Current Value(Namespace=System.Azure.Storage)(LookupHint=Codeunit ABS Client Impl. - NamedType ParameterLeaseBreakDurationErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -6860,7 +6860,7 @@
         </trans-unit>
         <trans-unit id="Table 2280223156 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reten. Pol. Deleting Param</source>
-          <target state="translated">ريتين.بول.حذف المعلمة</target>
+          <target state="translated">ريتين.بول.حذف المعيار</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.DataAdministration)(LookupHint=Table Reten. Pol. Deleting Param - Property Caption)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -6914,7 +6914,7 @@
         </trans-unit>
         <trans-unit id="Table 4010026032 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reten. Pol. Filtering Param</source>
-          <target state="translated">ريتين.بول.تصفية المعلمة</target>
+          <target state="translated">ريتين.بول.تصفية المعيار</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.DataAdministration)(LookupHint=Table Reten. Pol. Filtering Param - Property Caption)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -11030,13 +11030,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 3158499545 - NamedType 3716788505" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Could not parse parameter Admin.</source>
-          <target state="translated">تعذر تحليل المعلمة Admin.</target>
+          <target state="translated">تعذر تحليل المعيار Admin.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Email)(LookupHint=Codeunit Email Activities - NamedType ParseAdminErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
         <trans-unit id="Codeunit 3158499545 - NamedType 2513055206" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Could not parse parameter PastDate.</source>
-          <target state="translated">تعذر تحليل المعلمة PastDate.</target>
+          <target state="translated">تعذر تحليل المعيار PastDate.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Email)(LookupHint=Codeunit Email Activities - NamedType ParsePastDateErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -18857,7 +18857,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2612805596 - NamedType 668814160" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The RecordVariant parameter is not a Record.</source>
-          <target state="translated">المعلمة RecordVariant ليست سجلاً.</target>
+          <target state="translated">المعيار RecordVariant ليست سجلاً.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Integration.Word)(LookupHint=Codeunit Word Template Impl. - NamedType NotARecordErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -20291,7 +20291,7 @@
         </trans-unit>
         <trans-unit id="Table 1503905623 - Field 894914730 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the ID of the page for which the summary is requested. This parameter is mandatory.</source>
-          <target state="translated">يحدد معرف الصفحة التي يتم طلب الملخص لها.هذه المعلمة إلزامية.</target>
+          <target state="translated">يحدد معرف الصفحة التي يتم طلب الملخص لها.هذه المعيار إلزامية.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Integration)(LookupHint=Table Page Summary Parameters - Field Page ID - Property ToolTip)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -25376,7 +25376,7 @@
         </trans-unit>
         <trans-unit id="Page 906691248 - NamedType 1232297936" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The state parameter value does not match.</source>
-          <target state="translated">قيمة معلمة الحالة غير متطابقة.</target>
+          <target state="translated">قيمة معيار الحالة غير متطابقة.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Security.Authentication)(LookupHint=Page OAuth2ControlAddIn - NamedType NotMatchingStateErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -25406,7 +25406,7 @@
         </trans-unit>
         <trans-unit id="Enum 1111761898 - EnumValue 3371220206 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>No prompt parameter in the request</source>
-          <target state="translated">لا توجد معلمة موجه في الطلب</target>
+          <target state="translated">لا توجد معيار موجه في الطلب</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Security.Authentication)(LookupHint=Enum Prompt Interaction - EnumValue None - Property Caption)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -28424,13 +28424,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 3256925099 - NamedType 1514701291" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Alpha parameter must be between 0 and 255.</source>
-          <target state="translated">يجب أن تكون المعلمة Alpha بين 0 و255.</target>
+          <target state="translated">يجب أن تكون المعيار Alpha بين 0 و255.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Utilities)(LookupHint=Codeunit Image Impl. - NamedType AlphaErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
         <trans-unit id="Codeunit 3256925099 - NamedType 3585687077" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Blue parameter must be between 0 and 255.</source>
-          <target state="translated">يجب أن تكون المعلمة الزرقاء بين 0 و255.</target>
+          <target state="translated">يجب أن تكون المعيار الزرقاء بين 0 و255.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Utilities)(LookupHint=Codeunit Image Impl. - NamedType BlueErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -28448,13 +28448,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 3256925099 - NamedType 713431146" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Green parameter must be between 0 and 255.</source>
-          <target state="translated">يجب أن تكون المعلمة الخضراء بين 0 و255.</target>
+          <target state="translated">يجب أن تكون المعيار الخضراء بين 0 و255.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Utilities)(LookupHint=Codeunit Image Impl. - NamedType GreenErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
         <trans-unit id="Codeunit 3256925099 - NamedType 2075980966" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Parameter Height must be greater than 0</source>
-          <target state="translated">يجب أن يكون ارتفاع المعلمة أكبر من 0</target>
+          <target state="translated">يجب أن يكون ارتفاع المعيار أكبر من 0</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Utilities)(LookupHint=Codeunit Image Impl. - NamedType HeightErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -28472,7 +28472,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3256925099 - NamedType 146440322" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Red parameter must be between 0 and 255.</source>
-          <target state="translated">يجب أن تكون المعلمة الحمراء بين 0 و255.</target>
+          <target state="translated">يجب أن تكون المعيار الحمراء بين 0 و255.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Utilities)(LookupHint=Codeunit Image Impl. - NamedType RedErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -28484,19 +28484,19 @@
         </trans-unit>
         <trans-unit id="Codeunit 3256925099 - NamedType 1103750437" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Parameter Width must be greater than 0</source>
-          <target state="translated">يجب أن يكون عرض المعلمة أكبر من 0</target>
+          <target state="translated">يجب أن يكون عرض المعيار أكبر من 0</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Utilities)(LookupHint=Codeunit Image Impl. - NamedType WidthErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
         <trans-unit id="Codeunit 3256925099 - NamedType 4271181391" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The X parameter must be between 0 and the image width, which is %1.</source>
-          <target state="translated">يجب أن تكون المعلمة X بين 0 وعرض الصورة، وهو %1.</target>
+          <target state="translated">يجب أن تكون المعيار X بين 0 وعرض الصورة، وهو %1.</target>
           <note from="Developer" annotates="general" priority="2">%1 = image width (number)(Namespace=System.Utilities)(LookupHint=Codeunit Image Impl. - NamedType XErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
         <trans-unit id="Codeunit 3256925099 - NamedType 52526176" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Y parameter must be between 0 and the image height, which is %1.</source>
-          <target state="translated">يجب أن تكون المعلمة Y بين 0 وارتفاع الصورة، وهو %1.</target>
+          <target state="translated">يجب أن تكون المعيار Y بين 0 وارتفاع الصورة، وهو %1.</target>
           <note from="Developer" annotates="general" priority="2">%1 = image width (number)(Namespace=System.Utilities)(LookupHint=Codeunit Image Impl. - NamedType YErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -28574,7 +28574,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 246634019 - NamedType 527110261" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The provided query parameter is already present in the URI.</source>
-          <target state="translated">معلمة الاستعلام المقدمة موجودة بالفعل في URI.</target>
+          <target state="translated">معيار الاستعلام المقدمة موجودة بالفعل في URI.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Utilities)(LookupHint=Codeunit Uri Builder Impl. - NamedType DuplicateParameterErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -28592,13 +28592,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 246634019 - NamedType 1963289353" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The provided query parameter is not present in the URI.</source>
-          <target state="translated">معلمة الاستعلام المتوفرة غير موجودة في URI.</target>
+          <target state="translated">معيار الاستعلام المتوفرة غير موجودة في URI.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Utilities)(LookupHint=Codeunit Uri Builder Impl. - NamedType ParameterNotFoundErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
         <trans-unit id="Codeunit 246634019 - NamedType 367314926" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The query parameter key cannot be empty.</source>
-          <target state="translated">لا يمكن أن يكون مفتاح معلمة الاستعلام فارغًا.</target>
+          <target state="translated">لا يمكن أن يكون مفتاح معيار الاستعلام فارغًا.</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Utilities)(LookupHint=Codeunit Uri Builder Impl. - NamedType QueryParameterKeyCannotBeEmptyErr)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -28628,19 +28628,19 @@
         </trans-unit>
         <trans-unit id="Table 2488342448 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cue Setup</source>
-          <target state="translated">إعداد جديلة</target>
+          <target state="translated">إعداد قائمة الانتظار</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Visualization)(LookupHint=Table Cue Setup - Property Caption)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
         <trans-unit id="Table 2488342448 - Field 3070320983 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cue Name</source>
-          <target state="translated">اسم جديلة</target>
+          <target state="translated">اسم قائمة الانتظار</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Visualization)(LookupHint=Table Cue Setup - Field Field Name - Property Caption)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
         <trans-unit id="Table 2488342448 - Field 3531868071 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cue ID</source>
-          <target state="translated">معرف جديلة</target>
+          <target state="translated">معرف قائمة الانتظار</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Visualization)(LookupHint=Table Cue Setup - Field Field No. - Property Caption)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -28760,7 +28760,7 @@
         </trans-unit>
         <trans-unit id="Page 1122678929 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cue Setup</source>
-          <target state="translated">إعداد جديلة</target>
+          <target state="translated">إعداد قائمة الانتظار</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Visualization)(LookupHint=Page Cue Setup Administrator - Property Caption)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
@@ -28826,7 +28826,7 @@
         </trans-unit>
         <trans-unit id="Page 3449870094 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cue Setup</source>
-          <target state="translated">إعداد جديلة</target>
+          <target state="translated">إعداد قائمة الانتظار</target>
           <note from="Developer" annotates="general" priority="2">(Namespace=System.Visualization)(LookupHint=Page Cue Setup End User - Property Caption)</note>
           <note from="Xliff Generator" annotates="general" priority="3"/>
         </trans-unit>
