@@ -1,0 +1,634 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="MSP Specific">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2166717319 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Bundle Binding Type - Field Code - Property Caption</note>
+        <target state="translated">شفرة</target></trans-unit>
+        <trans-unit id="Table 2166717319 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Bundle Binding Type - Field Description - Property Caption</note>
+        <target state="translated">وصف</target></trans-unit>
+        <trans-unit id="Table 520210284 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Bundle Wrapping Type - Field Code - Property Caption</note>
+        <target state="translated">شفرة</target></trans-unit>
+        <trans-unit id="Table 520210284 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Bundle Wrapping Type - Field Description - Property Caption</note>
+        <target state="translated">وصف</target></trans-unit>
+        <trans-unit id="Table 2679801271 - Field 2488488541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Colour Count</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table MSP Printing Sorting Buffer - Field Colour Count - Property Caption</note>
+        <target state="translated">عدد الألوان</target></trans-unit>
+        <trans-unit id="Table 2679801271 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table MSP Printing Sorting Buffer - Field Entry No. - Property Caption</note>
+        <target state="translated">رقم الإدخال</target></trans-unit>
+        <trans-unit id="Table 2679801271 - Field 2674628310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lightness Key</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table MSP Printing Sorting Buffer - Field Lightness Key - Property Caption</note>
+        <target state="translated">مفتاح الخفة</target></trans-unit>
+        <trans-unit id="Table 2679801271 - Field 851830778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order No.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table MSP Printing Sorting Buffer - Field Prod. Order No. - Property Caption</note>
+        <target state="translated">همز. رقم الطلب</target></trans-unit>
+        <trans-unit id="Table 3999277328 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pallet Wrapping Type - Field Code - Property Caption</note>
+        <target state="translated">شفرة</target></trans-unit>
+        <trans-unit id="Table 3999277328 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pallet Wrapping Type - Field Description - Property Caption</note>
+        <target state="translated">وصف</target></trans-unit>
+        <trans-unit id="Table 2223345878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Glue Cons. Setup</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Standard Glue Cons. Setup2 - Property Caption</note>
+        <target state="translated">سلبيات الغراء القياسية. يثبت</target></trans-unit>
+        <trans-unit id="Table 2223345878 - Field 3929697034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Paper Type</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Standard Glue Cons. Setup2 - Field Paper Type - Property Caption</note>
+        <target state="translated">نوع الورق</target></trans-unit>
+        <trans-unit id="Table 2223345878 - Field 1315937210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Flute Type</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Standard Glue Cons. Setup2 - Field SAR Flute Type - Property Caption</note>
+        <target state="translated">نوع الفلوت</target></trans-unit>
+        <trans-unit id="Table 2223345878 - Field 2805052351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Glue Consumption (KG) Per Sq. Meter (Board)</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Standard Glue Cons. Setup2 - Field SAR Glue Cons./Sq. Mtr(Brd)KG - Property Caption</note>
+        <target state="translated">استهلاك الغراء القياسي (كجم) لكل قدم مربع. متر (مجلس)</target></trans-unit>
+        <trans-unit id="Table 2223345878 - Field 22513197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Ply</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Standard Glue Cons. Setup2 - Field SAR No. of Ply - Property Caption</note>
+        <target state="translated">رقم رقائق</target></trans-unit>
+        <trans-unit id="Table 2223345878 - Field 2227877088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table Standard Glue Cons. Setup2 - Field SAR Starting Date - Property Caption</note>
+        <target state="translated">تاريخ البدء</target></trans-unit>
+        <trans-unit id="Page 1854439633 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bundle Binding Type</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bundle Binding Type List - Property Caption</note>
+        <target state="translated">نوع ربط الحزمة</target></trans-unit>
+        <trans-unit id="Page 1079074430 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bundle Wrapping Type</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bundle Wrapping Type List - Property Caption</note>
+        <target state="translated">نوع تغليف الحزمة</target></trans-unit>
+        <trans-unit id="Page 493290367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Intransit FG Receiving List</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Intransit FG Receiving List - Property Caption</note>
+        <target state="translated">قائمة استلام Intransit FG</target></trans-unit>
+        <trans-unit id="Page 493290367 - Control 2088888580 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Intransit FG Receiving List - Control Select to Receive - Property Caption</note>
+        <target state="translated">يختار</target></trans-unit>
+        <trans-unit id="Page 493290367 - Control 252338194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receiving Location</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Intransit FG Receiving List - Control To Location - Property Caption</note>
+        <target state="translated">مكان الاستلام</target></trans-unit>
+        <trans-unit id="Page 493290367 - Control 3780387053 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scan Pallet Bar Code Here..</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Intransit FG Receiving List - Control ScanBarcode - Property InstructionalText</note>
+        <target state="translated">قم بمسح الرمز الشريطي لمنصة التحميل هنا..</target></trans-unit>
+        <trans-unit id="Page 493290367 - Control 3780387053 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scan Pallet Bar Code Here..</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Intransit FG Receiving List - Control ScanBarcode - Property AboutText</note>
+        <target state="translated">قم بمسح الرمز الشريطي لمنصة التحميل هنا..</target></trans-unit>
+        <trans-unit id="Page 493290367 - Control 3780387053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source />
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Intransit FG Receiving List - Control ScanBarcode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 493290367 - Action 4032263875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receive</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Intransit FG Receiving List - Action Release - Property Caption</note>
+        <target state="translated">يستلم</target></trans-unit>
+        <trans-unit id="Page 3296089693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source />
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pallet Allocations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1796352130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pallet Wrapping Type</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pallet Wrapping Type List - Property Caption</note>
+        <target state="translated">نوع تغليف البليت</target></trans-unit>
+        <trans-unit id="Page 2223345878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Glue Cons. Setup</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Standard Glue Cons. Setup2 - Property Caption</note>
+        <target state="translated">سلبيات الغراء القياسية. يثبت</target></trans-unit>
+        <trans-unit id="Page 2223345878 - Control 2071032361 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page Standard Glue Cons. Setup2 - Control SAR Group - Property Caption</note>
+        <target state="translated">تفاصيل</target></trans-unit>
+        <trans-unit id="Page 118428390 - Control 561974163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID to delete</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page UpdatePage - Control TableIDToDelete - Property Caption</note>
+        <target state="translated">معرف الجدول المراد حذفه</target></trans-unit>
+        <trans-unit id="Report 865976580 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Driver Report</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report SAR Driver Report - Property Caption</note>
+        <target state="translated">تقرير السائق</target></trans-unit>
+        <trans-unit id="Report 865976580 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip title</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report SAR Driver Report - RequestPage RequestOptionsPage - Property AboutTitle</note>
+        <target state="translated">عنوان نصيحة التدريس</target></trans-unit>
+        <trans-unit id="Report 865976580 - RequestPage 2516438534 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip content</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report SAR Driver Report - RequestPage RequestOptionsPage - Property AboutText</note>
+        <target state="translated">محتوى نصيحة التدريس</target></trans-unit>
+        <trans-unit id="Report 3194990058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle Report</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vehicle Report  - Property Caption</note>
+        <target state="translated">تقرير المركبة</target></trans-unit>
+        <trans-unit id="Report 3194990058 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip title</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vehicle Report  - RequestPage RequestOptionsPage - Property AboutTitle</note>
+        <target state="translated">عنوان نصيحة التدريس</target></trans-unit>
+        <trans-unit id="Report 3194990058 - RequestPage 2516438534 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip content</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vehicle Report  - RequestPage RequestOptionsPage - Property AboutText</note>
+        <target state="translated">محتوى نصيحة التدريس</target></trans-unit>
+        <trans-unit id="PageExtension 3470244815 - Action 2863681633 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3470244815">
+          <source> LC Amended List</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant Role Center - Action SAR LC Amended List - Property Caption</note>
+        <target state="translated">قائمة LC المعدلة</target></trans-unit>
+        <trans-unit id="PageExtension 741133098 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2526344291">
+          <source>New,Process,Report,Optimisation</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Conf. Trip Plan - Property PromotedActionCategories</note>
+        <target state="translated">جديد، عملية، تقرير، التحسين</target></trans-unit>
+        <trans-unit id="PageExtension 741133098 - Action 1585694810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2526344291">
+          <source>Show Optimisations</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Conf. Trip Plan - Action MSP Show Optimisations - Property Caption</note>
+        <target state="translated">عرض التحسينات</target></trans-unit>
+        <trans-unit id="PageExtension 741133098 - Change 1587086413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2526344291">
+          <source>Optimisation</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Conf. Trip Plan - Change Category_Category4 - Property Caption</note>
+        <target state="translated">تحسين</target></trans-unit>
+        <trans-unit id="PageExtension 741133098 - Change 278110413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2526344291">
+          <source>New</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 0.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Conf. Trip Plan - Change Category_New - Property Caption</note>
+        <target state="translated">جديد</target></trans-unit>
+        <trans-unit id="PageExtension 741133098 - Change 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2526344291">
+          <source>Process</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Conf. Trip Plan - Change Category_Process - Property Caption</note>
+        <target state="translated">عملية</target></trans-unit>
+        <trans-unit id="PageExtension 741133098 - Change 2234406979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2526344291">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Conf. Trip Plan - Change Category_Report - Property Caption</note>
+        <target state="translated">تقرير</target></trans-unit>
+        <trans-unit id="PageExtension 1153320061 - Action 2815216614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3763688681">
+          <source>Driver Tag</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Driver Card Ext - Action Driver Tag Report - Property Caption</note>
+        <target state="translated">علامة السائق</target></trans-unit>
+        <trans-unit id="PageExtension 1192023362 - Control 2262013839 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2931821506">
+          <source>Specifies the value of the Corr. Roll &amp; Bearing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Equiment Card - Control Corr. Roll &amp; Bearing - Property ToolTip</note>
+        <target state="translated">يحدد قيمة Corr. مجال اللفة والمحمل.</target></trans-unit>
+        <trans-unit id="PageExtension 1192023362 - Control 3960810594 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2931821506">
+          <source>Specifies the value of the Flute Type field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Equiment Card - Control Flute Type - Property ToolTip</note>
+        <target state="translated">يحدد قيمة حقل نوع الناي.</target></trans-unit>
+        <trans-unit id="PageExtension 1192023362 - Control 356968156 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2931821506">
+          <source>Specifies the value of the Lifeline (Linear Meter) field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Equiment Card - Control Lifeline - Property ToolTip</note>
+        <target state="translated">يحدد قيمة حقل شريان الحياة (المقياس الخطي).</target></trans-unit>
+        <trans-unit id="PageExtension 1192023362 - Control 2216586054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2931821506">
+          <source>Specifies the value of the Used % field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Equiment Card - Control Used % - Property ToolTip</note>
+        <target state="translated">يحدد قيمة الحقل المستخدم %.</target></trans-unit>
+        <trans-unit id="PageExtension 1192023362 - Control 1017106803 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2931821506">
+          <source>Specifies the value of the Used Linear Meter field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Equiment Card - Control Used Linear Meter - Property ToolTip</note>
+        <target state="translated">يحدد قيمة حقل المقياس الخطي المستخدم.</target></trans-unit>
+        <trans-unit id="PageExtension 3624974202 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2438604293">
+          <source>New,Process,Report,Transfer</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FG Receiving Ext  - Property PromotedActionCategories</note>
+        <target state="translated">جديد، عملية، تقرير، نقل</target></trans-unit>
+        <trans-unit id="PageExtension 3624974202 - Action 4224198349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2438604293">
+          <source>Transfer</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FG Receiving Ext  - Action Transfer - Property Caption</note>
+        <target state="translated">تحويل</target></trans-unit>
+        <trans-unit id="PageExtension 3624974202 - Change 1587086413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2438604293">
+          <source>Transfer</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FG Receiving Ext  - Change Category_Category4 - Property Caption</note>
+        <target state="translated">تحويل</target></trans-unit>
+        <trans-unit id="PageExtension 3624974202 - Change 278110413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2438604293">
+          <source>New</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 0.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FG Receiving Ext  - Change Category_New - Property Caption</note>
+        <target state="translated">جديد</target></trans-unit>
+        <trans-unit id="PageExtension 3624974202 - Change 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2438604293">
+          <source>Process</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FG Receiving Ext  - Change Category_Process - Property Caption</note>
+        <target state="translated">عملية</target></trans-unit>
+        <trans-unit id="PageExtension 3624974202 - Change 2234406979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2438604293">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FG Receiving Ext  - Change Category_Report - Property Caption</note>
+        <target state="translated">تقرير</target></trans-unit>
+        <trans-unit id="PageExtension 3624974202 - Control 1870643946 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2438604293">
+          <source>Specifies the value of the To Location field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FG Receiving Ext  - Control To Location  - Property ToolTip</note>
+        <target state="translated">يحدد قيمة الحقل "إلى الموقع".</target></trans-unit>
+        <trans-unit id="PageExtension 2230633201 - Control 1108367114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Pallet Dimension</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card MSP - Control MSP Pallet Dimension - Property Caption</note>
+        <target state="translated">البعد البليت</target></trans-unit>
+        <trans-unit id="PageExtension 2230633201 - Control 1033891420 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Specifies the value of the Pallet Height(mm) field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card MSP - Control MSP Pallet Height(mm) - Property ToolTip</note>
+        <target state="translated">يحدد قيمة حقل ارتفاع البليت (مم).</target></trans-unit>
+        <trans-unit id="PageExtension 2230633201 - Control 1975917021 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Specifies the value of the Pallet Length(mm) field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card MSP - Control MSP Pallet Length(mm) - Property ToolTip</note>
+        <target state="translated">يحدد قيمة حقل طول الباليت (مم).</target></trans-unit>
+        <trans-unit id="PageExtension 2230633201 - Control 1738679459 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Specifies the value of the Pallet Width(mm) field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card MSP - Control MSP Pallet Width(mm) - Property ToolTip</note>
+        <target state="translated">يحدد قيمة حقل عرض البليت (مم).</target></trans-unit>
+        <trans-unit id="PageExtension 2930631818 - Action 75951998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1379888169">
+          <source>Standard Glue Cons. Setup</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Manufacturing Setup Ext - Action SAR Standard Glue Cons. Setup2 - Property Caption</note>
+        <target state="translated">سلبيات الغراء القياسية. يثبت</target></trans-unit>
+        <trans-unit id="PageExtension 844338127 - Action 3073543261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 782835738">
+          <source>NSR Detail Report</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Owner Role  - Action NSR Detail Report 3 - Property Caption</note>
+        <target state="translated">تقرير تفصيلي عن NSR</target></trans-unit>
+        <trans-unit id="PageExtension 3871071665 - Control 3129764889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1696143066">
+          <source>Board Grade</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Product Design Box Details Ext - Control BoardGrade - Property Caption</note>
+        <target state="translated">درجة المجلس</target></trans-unit>
+        <trans-unit id="PageExtension 3871071665 - Control 2654090783 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1696143066">
+          <source>Secondary Board Grade</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Product Design Box Details Ext - Control BoardGrades1 - Property Caption</note>
+        <target state="translated">درجة المجلس الثانوي</target></trans-unit>
+        <trans-unit id="PageExtension 3871071665 - Control 272213338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1696143066">
+          <source>Secondary Board Grade 2</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Product Design Box Details Ext - Control BoardGrades2 - Property Caption</note>
+        <target state="translated">المجلس الثانوي الصف 2</target></trans-unit>
+        <trans-unit id="PageExtension 2529745492 - Control 2966213275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>This field is provided for informational purposes only and does not generate any ledger entries.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Invocie Ext  - Control Expected Freight Amount - Property ToolTip</note>
+        <target state="translated">يتم توفير هذا الحقل لأغراض إعلامية فقط ولا يؤدي إلى إنشاء أي إدخالات في دفتر الأستاذ.</target></trans-unit>
+        <trans-unit id="PageExtension 2324559163 - Control 1133547725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1352967620">
+          <source>MSP Board Grade</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Quote Prod Costing Ext - Control TempBoardGrade - Property Caption</note>
+        <target state="translated">درجة مجلس MSP</target></trans-unit>
+        <trans-unit id="PageExtension 3302553285 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 584058942">
+          <source>New,Process,Report,Optimisation</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Trip planning Ext - Property PromotedActionCategories</note>
+        <target state="translated">جديد، عملية، تقرير، التحسين</target></trans-unit>
+        <trans-unit id="PageExtension 3302553285 - Action 803889193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 584058942">
+          <source>Approve</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Trip planning Ext - Action Approve - Property Caption</note>
+        <target state="translated">يعتمد</target></trans-unit>
+        <trans-unit id="PageExtension 3302553285 - Action 1585694810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 584058942">
+          <source>Show Optimisations</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Trip planning Ext - Action MSP Show Optimisations - Property Caption</note>
+        <target state="translated">عرض التحسينات</target></trans-unit>
+        <trans-unit id="PageExtension 3302553285 - Action 113888489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 584058942">
+          <source>Reject</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Trip planning Ext - Action Reject - Property Caption</note>
+        <target state="translated">يرفض</target></trans-unit>
+        <trans-unit id="PageExtension 3302553285 - Action 1234931829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 584058942">
+          <source>Send for Approval</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Trip planning Ext - Action SendApproval - Property Caption</note>
+        <target state="translated">إرسال للموافقة</target></trans-unit>
+        <trans-unit id="PageExtension 3302553285 - Change 1587086413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 584058942">
+          <source>Optimisation</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Trip planning Ext - Change Category_Category4 - Property Caption</note>
+        <target state="translated">تحسين</target></trans-unit>
+        <trans-unit id="PageExtension 3302553285 - Change 278110413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 584058942">
+          <source>New</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 0.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Trip planning Ext - Change Category_New - Property Caption</note>
+        <target state="translated">جديد</target></trans-unit>
+        <trans-unit id="PageExtension 3302553285 - Change 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 584058942">
+          <source>Process</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Trip planning Ext - Change Category_Process - Property Caption</note>
+        <target state="translated">عملية</target></trans-unit>
+        <trans-unit id="PageExtension 3302553285 - Change 2234406979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 584058942">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Trip planning Ext - Change Category_Report - Property Caption</note>
+        <target state="translated">تقرير</target></trans-unit>
+        <trans-unit id="PageExtension 3302553285 - Control 404231955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 584058942">
+          <source>Trip Utilization Status</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Trip planning Ext - Control Trip Utilization Status - Property Caption</note>
+        <target state="translated">حالة استخدام الرحلة</target></trans-unit>
+        <trans-unit id="PageExtension 20382016 - Action 1614635912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050623752">
+          <source>Vehicle Tag</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vehicle Master - Action Vehicle Tag Report - Property Caption</note>
+        <target state="translated">علامة المركبة</target></trans-unit>
+        <trans-unit id="TableExtension 909714949 - Field 2262013839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3781801318">
+          <source>Corr. Roll &amp; Bearing</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Equiment Ext - Field Corr. Roll &amp; Bearing - Property Caption</note>
+        <target state="translated">تصحيح. لفة وتحمل</target></trans-unit>
+        <trans-unit id="TableExtension 909714949 - Field 3960810594 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3781801318">
+          <source>Flute Type</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Equiment Ext - Field Flute Type - Property Caption</note>
+        <target state="translated">نوع الفلوت</target></trans-unit>
+        <trans-unit id="TableExtension 909714949 - Field 356968156 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3781801318">
+          <source>Lifeline (Linear Meter)</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Equiment Ext - Field Lifeline - Property Caption</note>
+        <target state="translated">شريان الحياة (المقياس الخطي)</target></trans-unit>
+        <trans-unit id="TableExtension 909714949 - Field 2216586054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3781801318">
+          <source>Used %</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Equiment Ext - Field Used % - Property Caption</note>
+        <target state="translated">مستخدم ٪</target></trans-unit>
+        <trans-unit id="TableExtension 909714949 - Field 1017106803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3781801318">
+          <source>Used Linear Meter</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Equiment Ext - Field Used Linear Meter - Property Caption</note>
+        <target state="translated">جهاز قياس خطي مستعمل</target></trans-unit>
+        <trans-unit id="TableExtension 1177051080 - Field 3699648792 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1168836184">
+          <source>Scan Vehicle/Driver Tag</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gate Entry Hdr Ext - Field Scan Vehicle/Driver Tag - Property Caption</note>
+        <target state="translated">مسح علامة المركبة/السائق</target></trans-unit>
+        <trans-unit id="TableExtension 159358950 - Field 1606038960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Packing List No.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Journal line - Field SAR Packing List No. - Property Caption</note>
+        <target state="translated">قائمة التعبئة رقم</target></trans-unit>
+        <trans-unit id="TableExtension 2952232205 - Field 1118605013 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Lightness</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item MSP - Field MSP Lightness - Property Caption</note>
+        <target state="translated">خفة</target></trans-unit>
+        <trans-unit id="TableExtension 2952232205 - Field 1033891420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Pallet Height(mm)</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item MSP - Field MSP Pallet Height(mm) - Property Caption</note>
+        <target state="translated">ارتفاع البليت (مم)</target></trans-unit>
+        <trans-unit id="TableExtension 2952232205 - Field 1975917021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Pallet Length(mm)</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item MSP - Field MSP Pallet Length(mm) - Property Caption</note>
+        <target state="translated">طول البليت (مم)</target></trans-unit>
+        <trans-unit id="TableExtension 2952232205 - Field 1738679459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Pallet Width(mm)</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item MSP - Field MSP Pallet Width(mm) - Property Caption</note>
+        <target state="translated">عرض البليت (مم)</target></trans-unit>
+        <trans-unit id="TableExtension 2930631818 - Field 4160320452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1379888169">
+          <source>FG Receiving Transfer Batch</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Manufacturing Setup Ext - Field FG Receiving Transfer Batch - Property Caption</note>
+        <target state="translated">FG يستلم دفعة النقل</target></trans-unit>
+        <trans-unit id="TableExtension 2930631818 - Field 1602768280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1379888169">
+          <source>FG Receiving Transfer Template</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Manufacturing Setup Ext - Field FG Receiving Transfer Template - Property Caption</note>
+        <target state="translated">FG تلقي قالب النقل</target></trans-unit>
+        <trans-unit id="TableExtension 2930631818 - Field 3071832330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1379888169">
+          <source>GSM Tolerance in PDI</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Manufacturing Setup Ext - Field GSM tolerance for PDI - Property Caption</note>
+        <target state="translated">التسامح GSM في PDI</target></trans-unit>
+        <trans-unit id="TableExtension 2930631818 - Field 920418423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1379888169">
+          <source>Intransit Location</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Manufacturing Setup Ext - Field Intransit Location - Property Caption</note>
+        <target state="translated">موقع العبور</target></trans-unit>
+        <trans-unit id="TableExtension 2843535447 - Field 252338194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1028611864">
+          <source>To Location</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Packing List Hdr - Field To Location - Property Caption</note>
+        <target state="translated">إلى الموقع</target></trans-unit>
+        <trans-unit id="TableExtension 2404445489 - Field 920418423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2992031327">
+          <source>Intransit Location</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Packing List Lines Ext - Field Intransit Location - Property Caption</note>
+        <target state="translated">موقع العبور</target></trans-unit>
+        <trans-unit id="TableExtension 2404445489 - Field 931554091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2992031327">
+          <source>Intransit Posted</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Packing List Lines Ext - Field Intransit Posted - Property Caption</note>
+        <target state="translated">نشر العبور</target></trans-unit>
+        <trans-unit id="TableExtension 2404445489 - Field 1170475940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2992031327">
+          <source>Select To Receive</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Packing List Lines Ext - Field Select To Receive - Property Caption</note>
+        <target state="translated">حدد لتلقي</target></trans-unit>
+        <trans-unit id="TableExtension 2404445489 - Field 252338194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2992031327">
+          <source>To Location</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Packing List Lines Ext - Field To Location - Property Caption</note>
+        <target state="translated">إلى الموقع</target></trans-unit>
+        <trans-unit id="TableExtension 1356833520 - Field 585948579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1843615391">
+          <source>Operator End Date/Time</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PMJobHeader Ext - Field Operator End Date/Time - Property Caption</note>
+        <target state="translated">تاريخ/وقت انتهاء المشغل</target></trans-unit>
+        <trans-unit id="TableExtension 1356833520 - Field 1043147730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1843615391">
+          <source>Operator Start Date/Time</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PMJobHeader Ext - Field Operator Start Date/Time - Property Caption</note>
+        <target state="translated">تاريخ/وقت بدء المشغل</target></trans-unit>
+        <trans-unit id="TableExtension 1184121441 - Field 3174140573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4172325082">
+          <source>Bundle Per Pallet</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Product Design Header Ext - Field Bundle per pallet - Property Caption</note>
+        <target state="translated">حزمة لكل البليت</target></trans-unit>
+        <trans-unit id="TableExtension 1184121441 - Field 1596339849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4172325082">
+          <source>Expected GSM</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Product Design Header Ext - Field Expected GSM - Property Caption</note>
+        <target state="translated">جي إس إم المتوقعة</target></trans-unit>
+        <trans-unit id="TableExtension 1184121441 - Field 2646857210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4172325082">
+          <source>Glue Item</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Product Design Header Ext - Field Glue Item - Property Caption</note>
+        <target state="translated">مادة الغراء</target></trans-unit>
+        <trans-unit id="TableExtension 1184121441 - Field 1018317491 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4172325082">
+          <source>Qty. Per Bundle</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Product Design Header Ext - Field Qty. Per Bundle - Property Caption</note>
+        <target state="translated">الكمية. لكل حزمة</target></trans-unit>
+        <trans-unit id="TableExtension 2956944856 - Field 690329759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3335635432">
+          <source>From GSM</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Production Header BOM - Field From GSM 2 - Property Caption</note>
+        <target state="translated">من جي إس إم</target></trans-unit>
+        <trans-unit id="TableExtension 2956944856 - Field 438919164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3335635432">
+          <source>To GSM</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Production Header BOM - Field To GSM 2 - Property Caption</note>
+        <target state="translated">إلى جي إس إم</target></trans-unit>
+        <trans-unit id="TableExtension 2988609761 - Field 990016231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1219547368">
+          <source>Corr. Roll &amp; Bearing used &gt; 90 %</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Qaulity Cue Ext - Field Equipment Expiry - Property Caption</note>
+        <target state="translated">تصحيح. اللفة والمحمل المستخدم &gt; 90%</target></trans-unit>
+        <trans-unit id="TableExtension 4190488490 - Field 2966213275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>This field is provided for informational purposes only and does not generate any ledger entries.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext - Field Expected Freight Amount - Property ToolTip</note>
+        <target state="translated">يتم توفير هذا الحقل لأغراض إعلامية فقط ولا يؤدي إلى إنشاء أي إدخالات في دفتر الأستاذ.</target></trans-unit>
+        <trans-unit id="TableExtension 4190488490 - Field 2966213275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Expected Freight Amount</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext - Field Expected Freight Amount - Property Caption</note>
+        <target state="translated">مبلغ الشحن المتوقع</target></trans-unit>
+        <trans-unit id="TableExtension 281671065 - Field 2966213275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>This field is provided for informational purposes only and does not generate any ledger entries.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Invoice Header Ext - Field Expected Freight Amount - Property ToolTip</note>
+        <target state="translated">يتم توفير هذا الحقل لأغراض إعلامية فقط ولا يؤدي إلى إنشاء أي إدخالات في دفتر الأستاذ.</target></trans-unit>
+        <trans-unit id="TableExtension 281671065 - Field 2966213275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Expected Freight Amount</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Invoice Header Ext - Field Expected Freight Amount - Property Caption</note>
+        <target state="translated">مبلغ الشحن المتوقع</target></trans-unit>
+        <trans-unit id="TableExtension 485271831 - Field 1596339849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3675136128">
+          <source>Expected GSM</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Mat Costing Header Ext - Field Expected GSM - Property Caption</note>
+        <target state="translated">جي إس إم المتوقعة</target></trans-unit>
+        <trans-unit id="TableExtension 1139816599 - Field 598036635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4015616640">
+          <source>Approved/Rejected By</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Trip Sched Planning Header Ext - Field Approved/Rejected By - Property Caption</note>
+        <target state="translated">تمت الموافقة عليه/الرفض بواسطة</target></trans-unit>
+        <trans-unit id="TableExtension 1139816599 - Field 823427482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4015616640">
+          <source>Approved/Rejected Date</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Trip Sched Planning Header Ext - Field Approved/Rejected Date - Property Caption</note>
+        <target state="translated">تاريخ الموافقة/الرفض</target></trans-unit>
+        <trans-unit id="TableExtension 1139816599 - Field 3412053468 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4015616640">
+          <source>Trip Utilization Status</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Trip Sched Planning Header Ext - Field Trip Utilzation Status - Property Caption</note>
+        <target state="translated">حالة استخدام الرحلة</target></trans-unit>
+        <trans-unit id="TableExtension 4110536417 - Field 4028632953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
+          <source>Trip Plan Low Utilization Approver</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension User Setup Ext - Field Trip Plan Low Util. Approver - Property Caption</note>
+        <target state="translated">خطة الرحلة معتمدة على الاستخدام المنخفض</target></trans-unit>
+        <trans-unit id="TableExtension 1381817495 - Field 1389987516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2338926592">
+          <source>Calculated Value in Cubic Meter</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vehicle Master Ext - Field CBM Capacity - Property ToolTip</note>
+        <target state="translated">القيمة المحسوبة بالمتر المكعب</target></trans-unit>
+        <trans-unit id="TableExtension 1381817495 - Field 1389987516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2338926592">
+          <source>CBM Capacity</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vehicle Master Ext - Field CBM Capacity - Property Caption</note>
+        <target state="translated">قدرة تدابير بناء الثقة</target></trans-unit>
+        <trans-unit id="TableExtension 1538487532 - Field 2330361184 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 133871851">
+          <source>Shows the number of trip plans with low utilization that have been approved.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Warehouse Worker WMS Cue Ext - Field TripApproved - Property ToolTip</note>
+        <target state="translated">يعرض عدد خطط الرحلات ذات الاستخدام المنخفض التي تمت الموافقة عليها.</target></trans-unit>
+        <trans-unit id="TableExtension 1538487532 - Field 2330361184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 133871851">
+          <source>Approved</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Warehouse Worker WMS Cue Ext - Field TripApproved - Property Caption</note>
+        <target state="translated">موافقة</target></trans-unit>
+        <trans-unit id="TableExtension 1538487532 - Field 3746057956 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 133871851">
+          <source>Shows the number of trip plans with low utilization that have been rejected.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Warehouse Worker WMS Cue Ext - Field TripReject - Property ToolTip</note>
+        <target state="translated">يعرض عدد خطط الرحلات ذات الاستخدام المنخفض والتي تم رفضها.</target></trans-unit>
+        <trans-unit id="TableExtension 1538487532 - Field 3746057956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 133871851">
+          <source>Rejected</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Warehouse Worker WMS Cue Ext - Field TripReject - Property Caption</note>
+        <target state="translated">مرفوض</target></trans-unit>
+        <trans-unit id="TableExtension 1538487532 - Field 3960467896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 133871851">
+          <source>Shows the number of trip plans that are pending approval due to low utilization.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Warehouse Worker WMS Cue Ext - Field TripSendApproval - Property ToolTip</note>
+        <target state="translated">يعرض عدد خطط الرحلات التي في انتظار الموافقة عليها بسبب قلة الاستخدام.</target></trans-unit>
+        <trans-unit id="TableExtension 1538487532 - Field 3960467896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 133871851">
+          <source>Send for Approval</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Warehouse Worker WMS Cue Ext - Field TripSendApproval - Property Caption</note>
+        <target state="translated">إرسال للموافقة</target></trans-unit>
+        <trans-unit id="ReportExtension 1333431883 - ReportColumn 2339179379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 4066093373">
+          <source>Expected Freight Amount</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NSR report - ReportColumn ExpectedFreightAmount - Property Caption</note>
+        <target state="translated">مبلغ الشحن المتوقع</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
